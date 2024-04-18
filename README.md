@@ -73,6 +73,7 @@
    39  systemctl enable zabbix-server zabbix-agent apache2`
 
 ```
+![Zabbix installed](https://github.com/WilderWein123/zbx-hw-02.md/blob/main/img/zbx1.jpg)
 
 ---
 
