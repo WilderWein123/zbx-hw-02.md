@@ -90,9 +90,13 @@
 
 #### Требования к результаты 
 1. Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
+![Zabbix installed](https://github.com/WilderWein123/zbx-hw-02.md/blob/main/img/zbx2.jpg)
 2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+![Zabbix installed](https://github.com/WilderWein123/zbx-hw-02.md/blob/main/img/zbx3.jpg)
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
+![Zabbix installed](https://github.com/WilderWein123/zbx-hw-02.md/blob/main/img/zbx4.jpg)
 4. Приложите в файл README.md текст использованных команд в GitHub
+![Zabbix installed](https://github.com/WilderWein123/zbx-hw-02.md/blob/main/img/zbx5.jpg)
 
 ---
 ## Задание 3 со звёздочкой*
@@ -100,6 +104,8 @@
 
 #### Требования к результаты 
 1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
+![Zabbix installed](https://github.com/WilderWein123/zbx-hw-02.md/blob/main/img/zbx6.jpg)
+
 --- 
 
 ## Критерии оценки
