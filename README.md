@@ -41,37 +41,36 @@
 1. Прикрепите в файл README.md скриншот авторизации в админке.
 2. Приложите в файл README.md текст использованных команд в GitHub.
 
-`
-   11  sudo apt install curl ca-certificates
-   12  sudo install -d /usr/share/postgresql-common/pgdg
-   13  sudo curl -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc --fail https://www.postgresql.org/media/keys/ACCC4CF8.asc
-   14  apt install sudo
-   15  nano /etc/apt/sources.list
-   16  sudo apt install curl ca-certificates
-   17  sudo install -d /usr/share/postgresql-common/pgdg
-   18  sudo curl -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc --fail https://www.postgresql.org/media/keys/ACCC4CF8.asc
-   19  apt install sudo
-   20  dpkg-reconfigure locales
-   21  suido dpkg-reconfigure locales
-   22  sudo dpkg-reconfigure locales
-   23  sudo apt install curl ca-certificates
-   24  sudo install -d /usr/share/postgresql-common/pgdg
-   25  sudo curl -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc --fail https://www.postgresql.org/media/keys/ACCC4CF8.asc
-   26  sudo sh -c 'echo "deb [signed-by=/usr/share/postgresql-common/pgdg/apt.postgresql.org.asc] https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
-   27  sudo apt update
-   28  sudo apt -y install postgresql
-   29  wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
-   30   dpkg -i zabbix-release_6.4-1+debian11_all.deb
-   31  sudo dpkg -i zabbix-release_6.4-1+debian11_all.deb
-   32   apt update
-   33  sudo apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
-   34  sudo -u postgres createuser --pwprompt zabbix
-   35  sudo -u postgres createdb -O zabbix zabbix
-   36  zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-   37  nano /etc/zabbix/zabbix_server.conf
-   38  systemctl restart zabbix-server zabbix-agent apache2
-   39  systemctl enable zabbix-server zabbix-agent apache2
-   40  history 
+
+`   11  sudo apt install curl ca-certificates`
+`   12  sudo install -d /usr/share/postgresql-common/pgdg`
+`   13  sudo curl -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc --fail https://www.postgresql.org/media/keys/ACCC4CF8.asc`
+`   14  apt install sudo`
+`   15  nano /etc/apt/sources.list`
+`   16  sudo apt install curl ca-certificates`
+`   17  sudo install -d /usr/share/postgresql-common/pgdg`
+`   18  sudo curl -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc --fail https://www.postgresql.org/media/keys/ACCC4CF8.asc`
+`   19  apt install sudo`
+`   20  dpkg-reconfigure locales`
+`   21  suido dpkg-reconfigure locales`
+`   22  sudo dpkg-reconfigure locales`
+`   23  sudo apt install curl ca-certificates`
+`   24  sudo install -d /usr/share/postgresql-common/pgdg`
+`   25  sudo curl -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc --fail https://www.postgresql.org/media/keys/ACCC4CF8.asc`
+`   26  sudo sh -c 'echo "deb [signed-by=/usr/share/postgresql-common/pgdg/apt.postgresql.org.asc] https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'`
+`   27  sudo apt update`
+`   28  sudo apt -y install postgresql`
+`   29  wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb`
+`   30   dpkg -i zabbix-release_6.4-1+debian11_all.deb`
+`   31  sudo dpkg -i zabbix-release_6.4-1+debian11_all.deb`
+`   32   apt update`
+`   33  sudo apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
+`   34  sudo -u postgres createuser --pwprompt zabbix`
+`   35  sudo -u postgres createdb -O zabbix zabbix`
+`   36  zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix`
+`   37  nano /etc/zabbix/zabbix_server.conf`
+`   38  systemctl restart zabbix-server zabbix-agent apache2`
+`   39  systemctl enable zabbix-server zabbix-agent apache2`
 
 `
 
